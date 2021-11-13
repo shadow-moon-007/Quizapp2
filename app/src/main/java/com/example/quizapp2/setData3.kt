@@ -2,7 +2,7 @@ package com.example.quizapp2
 
 object setData3 {
     const val dataNo:String="3"
-    const val name:String="Psychosis Test"
+    const val name:String="Happiness Test"
     const val score:String="score"
 
 //Psychosis Test
@@ -12,207 +12,146 @@ object setData3 {
 
         var question1 = QuestionData(
             1,
-            "In the last month, Do familiar surroundings sometimes seem strange, confusing, threatening or unreal to you?",
+            "I feel that life is very rewarding.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             1
 
         )
         var question2 = QuestionData(
             2,
-            "Have you heard unusual sounds like banging, clicking, hissing, clapping or ringing in your ears?",
+            "I am able to find the goodness in myself and others.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             1
         )
         var question3 = QuestionData(
             3,
-            "Do things that you see appear different from the way they usually do?",
+            "I am optimistic about the future.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             2
         )
         var question4 = QuestionData(
             4,
-            "Have you had experiences with telepathy, psychic forces, or fortune telling?",
+            "I take pleasure in everyday activities.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             3
         )
 
         var question5 = QuestionData(
             5,
-            "Have you felt that you are not in control of your own ideas or thoughts?",
+            "I feel joy from moment to moment.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             4
         )
         var question6 = QuestionData(
             6,
-            "Do you have difficulty getting your point across, because you ramble or go off the track a lot when you talk?",
+            "I have a sense of meaning and purpose in my life.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             4
         )
         var question7 = QuestionData(
             7,
-            "Do you have strong feelings or beliefs about being unusually gifted or talented in some way?",
+            "I have a lot of energy.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             1
         )
         var question8 = QuestionData(
             8,
-            "Do you feel that other people are watching you or talking about you?",
+            "I feel best when I'm giving to others.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             1
         )
         var question9 = QuestionData(
             9,
-            "Do you sometimes get strange feelings on or just beneath your skin, like bugs crawling?",
+            "I can find the good, even in a difficult situation.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             1
         )
         var question10 = QuestionData(
             10,
-            "Do you sometimes feel suddenly distracted by distant sounds that you are not normally aware of?",
+            "I welcome and accept my feelings throughout any given day.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             1
         )
         var question11 = QuestionData(
             11,
-            "Have you had the sense that some person or force is around you, although you couldn’t see anyone?",
+            "I actively keep in touch with friends and family.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             1
 
         )
         var question12 = QuestionData(
             12,
-            "Do you worry at times that something may be wrong with your mind?",
+            "When things are tough, I reach out for support.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             1
         )
         var question13 = QuestionData(
             13,
-            "Have you ever felt that you don't exist, the world does not exist, or that you are dead?",
+            "I feel grateful for what I have.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             2
         )
         var question14 = QuestionData(
             14,
-            "Have you been confused at times whether something you experienced was real or imaginary?",
+            "I let go of past disappointments or hurts.",
 
-            "yes",
-            "some times",
-            "may be",
-            "no",
+            "Always",
+            "often",
+            "Some times",
+            "Never",
             3
-        )
-
-        var question15 = QuestionData(
-            15,
-            "Do you hold beliefs that other people would find unusual or bizarre?",
-
-            "yes",
-            "some times",
-            "may be",
-            "no",
-            4
-        )
-        var question16 = QuestionData(
-            16,
-            "Do you feel that parts of your body have changed in some way, or that parts of your body are working differently?",
-
-            "yes",
-            "some times",
-            "may be",
-            "no",
-            4
-        )
-        var question17 = QuestionData(
-            17,
-            "Are your thoughts sometimes so strong that you can almost hear them?",
-
-            "yes",
-            "some times",
-            "may be",
-            "no",
-            1
-        )
-        var question18 = QuestionData(
-            18,
-            "Do you find yourself feeling mistrustful or suspicious of other people?",
-
-            "yes",
-            "some times",
-            "may be",
-            "no",
-            1
-        )
-        var question19 = QuestionData(
-            19,
-            "Have you seen unusual things like flashes, flames, blinding light, or geometric figures?",
-
-            "yes",
-            "some times",
-            "may be",
-            "no",
-            1
-        )
-        var question20 = QuestionData(
-            20,
-            "Have you seen things that other people can't see or don't seem to see?",
-
-            "yes",
-            "some times",
-            "may be",
-            "no",
-            1
         )
 
 
@@ -230,12 +169,7 @@ object setData3 {
         que.add(question12)
         que.add(question13)
         que.add(question14)
-        que.add(question15)
-        que.add(question16)
-        que.add(question17)
-        que.add(question18)
-        que.add(question19)
-        que.add(question20)
+
 
         return que
     }

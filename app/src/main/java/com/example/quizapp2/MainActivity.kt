@@ -47,5 +47,26 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        button6.setOnClickListener {
+
+            var intent = Intent(this,QuestionActivity::class.java)
+            intent.putExtra("data","6")
+            startActivity(intent)
+            finish()
+        }
+        button7.setOnClickListener {
+
+            var intent = Intent(this,QuestionActivity::class.java)
+            intent.putExtra("data","7")
+            startActivity(intent)
+            finish()
+        }
+        button8.setOnClickListener {
+
+            var intent = Intent(this,QuestionActivity::class.java)
+            intent.putExtra("data","8")
+            startActivity(intent)
+            finish()
+        }
     }
 }

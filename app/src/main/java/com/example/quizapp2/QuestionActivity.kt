@@ -48,6 +48,18 @@ class QuestionActivity : AppCompatActivity() {
             questionList=setData5.getQuestion()
             Name=setData5.name
         }
+        else if (DataNo=="6"){
+            questionList=setData6.getQuestion()
+            Name=setData6.name
+        }
+        else if (DataNo=="7"){
+            questionList=setData7.getQuestion()
+            Name=setData7.name
+        }
+        else if (DataNo=="8"){
+            questionList=setData8.getQuestion()
+            Name=setData8.name
+        }
         else{
             Toast.makeText(this, "error", Toast.LENGTH_SHORT).show()
         }

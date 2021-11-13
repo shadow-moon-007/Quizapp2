@@ -1,124 +1,124 @@
 package com.example.quizapp2
 
-object setData2 {
-    const val dataNo:String="2"
-    const val name:String="Anxiety Test"
+object setData8 {
+    const val dataNo:String="8"
+    const val name:String="Workaholic Test"
     const val score:String="score"
 
-//Anxiety Test
+//Addiction Test
 
     fun getQuestion():ArrayList<QuestionData>{
         var que:ArrayList<QuestionData> = arrayListOf()
 
         var question1 = QuestionData(
             1,
-            "Over the last 2 weeks, how often Do you worry about lots of different things?",
+            "Do you ever work more hours in a week than you plan to work?",
 
-            "Never",
+            "No",
             "Rarely",
             "Sometimes",
-            "Often",
-            4
+            "Yes",
+            1
+
         )
         var question2 = QuestionData(
             2,
-            "Do you have trouble controlling your worries?",
+            "Do you feel moody, guilty, anxious when you are not working?",
 
-            "Never",
+            "No",
             "Rarely",
             "Sometimes",
-            "Often",
+            "Yes",
             1
         )
         var question3 = QuestionData(
             3,
-            "Do you get irritable and/or easily annoyed when anxious?",
+            "When you aren’t at work, do you spend large amounts of time checking your work email or phone, or thinking about work you’ve yet to finish?",
 
-            "Never",
+            "No",
             "Rarely",
             "Sometimes",
-            "Often",
+            "Yes",
             2
         )
         var question4 = QuestionData(
             4,
-            "Does worry or anxiety make you feel fatigued or worn out?",
+            "Do you plan to reduce your work hours with little success?",
 
-            "Never",
+            "No",
             "Rarely",
             "Sometimes",
-            "Often",
+            "Yes",
             3
         )
-
         var question5 = QuestionData(
             5,
-            "Does worry or anxiety interfere with falling and/or staying asleep?",
+            "Does work ever negatively affect your relationships?",
 
-            "Never",
+            "No",
             "Rarely",
             "Sometimes",
-            "Often",
+            "Yes",
             4
         )
         var question6 = QuestionData(
             6,
-            "Does worry or anxiety make it hard to concentrate?",
+            "Has work ever kept you from getting a healthy amount of sleep?",
 
-            "Never",
+            "No",
             "Rarely",
             "Sometimes",
-            "Often",
+            "Yes",
             4
         )
         var question7 = QuestionData(
             7,
-            "Do you feel jumpy?",
+            "Has work ever interfered with your health?",
 
-            "Never",
+            "No",
             "Rarely",
             "Sometimes",
-            "Often",
+            "Yes",
             1
         )
         var question8 = QuestionData(
             8,
-            "Do you worry about how well you do things?",
+            "Do you not take vacation or sick days in order to complete more work?",
 
-            "Never",
+            "No",
             "Rarely",
             "Sometimes",
-            "Often",
+            "Yes",
             1
         )
         var question9 = QuestionData(
             9,
-            "Do you worry about things working out in the future?",
+            "Do you find it difficult to concentrate on conversations or other tasks when you’re not working?",
 
-            "Never",
+            "No",
             "Rarely",
             "Sometimes",
-            "Often",
-            1
+            "Yes",
+            4
         )
         var question10 = QuestionData(
             10,
-            "Do you worry about things that have already happened in the past?",
+            "Do you hide how much you work to loved ones?",
 
-            "Never",
+            "No",
             "Rarely",
             "Sometimes",
-            "Often",
+            "Yes",
             1
         )
         var question11 = QuestionData(
             11,
-            "Do your muscles get tense when you are worried or anxious?",
+            "Are you experiencing burnout from working too much?",
 
-            "Never",
+            "No",
             "Rarely",
             "Sometimes",
-            "Often",
+            "Yes",
             1
         )
 
